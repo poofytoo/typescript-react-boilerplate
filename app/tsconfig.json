@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "outDir": "build",
+    "paths": {
+      "*": [
+        "node_modules/@types/*"
+      ]
+    },
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "stripInternal": true,
+    "target": "ES2019"
+  },
+  "exclude": [
+    "./__mocks__",
+    "build",
+    "dist",
+    "node_modules"
+  ]
+}

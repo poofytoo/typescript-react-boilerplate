@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "stripInternal": true,
+    "skipLibCheck": true,
+    "target": "ES2019",
+    "baseUrl": ".",
+    "declaration": false,
+    "rootDir": ".",
+    "paths": {
+      "*": [
+        "../node_modules/@types/*"
+      ]
+    }
+  },
+  "exclude": [
+    "../node_modules"
+  ]
+}
